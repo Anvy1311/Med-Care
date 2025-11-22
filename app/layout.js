@@ -6,8 +6,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "MedBridge - Doctor Appointment App",
-  description: "Book and manage your doctor appointments with ease using MedBridge.",
+  title: "MedCare - Doctor Appointment App",
+  description: "Book and manage your doctor appointments with ease using MedCare.",
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
 
         <footer className="bg-muted/50 py-12">
           <div children="container mx-auto px-4 text-center text-gray-200">
-            <p>© 2024 MedBridge. All rights reserved.</p>
+            <p>© 2024 MedCare. All rights reserved.</p>
           </div>
         </footer>
       </body>
